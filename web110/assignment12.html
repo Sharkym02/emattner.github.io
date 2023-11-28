@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+<title>WEB110 Assignment 12</title>
+<meta charset="utf-8">
+</head>
+<body>
+<header>
+    <p id="nameHeader"></p>
+</header>
+<main>
+    <p id="date"></p>
+    <canvas id="canvas" width="320" height="160"></canvas>
+    <canvas id="canvas2" width="640" height="480"></canvas>
+    <p>
+        Learning how to use javaScript to implement dynamic html will be extremely useful, since I intend to create webpages that users would like to interact with, such as calculator tools for various systems, where the user must input data which the website uses to give them certain outputs. This assignment gave me a great building block to build upon, and will be vital to both my personal projects in the future, as well as classes/work.
+    </p>
+</main>
+<script>
+    document.getElementById("nameHeader").innerHTML = "Eric Mattner";
+    document.getElementById('date').innerHTML = Date();
+    var canvass = document.getElementById("canvas");
+    var canvasCtx = canvass.getContext("2d");
+    canvasCtx.font = "20px Times New Roman";
+    canvasCtx.fillText("Eric Mattner", 50, 20)
+    var canvas2 = document.getElementById("canvas2");
+    var canvas2Ctx = canvass.getContext("2d");
+    canvas2Ctx.beginPath();
+    canvas2Ctx.arc(160, 240, 40, 0, 2 * Math.PI);
+    canvas2Ctx.stroke();
+    canvas2Ctx.beginPath();
+    canvas2Ctx.arc(320, 240, 40, 0, 2 * Math.PI);
+    canvas2Ctx.stroke();
+    canvas2Ctx.beginPath();
+    canvas2Ctx.arc(480, 240, 40, 0, 2 * Math.PI);
+    canvas2Ctx.stroke();
+</script>
+</body>
+</html>
+
