@@ -40,7 +40,7 @@
             <div>
                 <h2>Example Form</h2>
                 <h2>Submitted Information</h2>
-        <table>
+            <table>
             <tr>
                 <th>Input Value</th>
                 <th>Input Number</th>
@@ -56,6 +56,7 @@ foreach ($_POST as $n => $v) {
 }
 
 ?>
+            </table>
             </div>
         </div>
         <div class="functionField">
