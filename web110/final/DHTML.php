@@ -109,8 +109,7 @@ nav>div>a {
             </p>
             <br>
             <div>
-                <h2>Example Form</h2>
-                <h2>Submitted Information</h2>
+                <h2>Submitted Values</h2>
         <table>
             <tr>
                 <th>Input Value</th>
