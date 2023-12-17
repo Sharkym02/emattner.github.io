@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WEB 110 Video</title>
+    <meta charset="utf-8">
+    <!--
+        Web 110 Final
+        Eric Mattner
+        12/11/23
+    -->
+<link rel="stylesheet" type="text/css" href="final.css">
+<style>
+html {
+    background-color: tan;
+}
+.wrapper {
+    background-color: tan;
+}
+header {
+    border: thin solid grey;
+}
+h1 {
+    font-size: 30px;
+    color: black;
+    background-color: grey;
+    padding:15px
+}
+nav {
+    display: flex;
+    background-color: darkgrey;
+}
+nav>div {
+    padding: 10px;
+    margin-right: 0px;
+    margin-left: 100px;
+}
+nav>div>a {
+    color:black;
+    text-decoration: none;
+}
+.inputField {
+    border: thin solid grey;
+    font-size: 20px;
+    margin: 10px;
+    padding: 30px;
+    color: black;
+    background-color: peachpuff;
+}
+.explainField {
+    border: thin solid grey;
+    font-size: 20px;
+    margin: 10px;
+    padding: 30px;
+    color: black;
+    background-color: peachpuff;
+}
+.explainField > h2 {
+    font-size: 30px;
+    color: black;
+    background-color: peachpuff;
+}
+.outputField {
+    border: thin solid grey;
+    margin: 10px;
+    padding: 30px;
+    color: black;
+    background-color: peachpuff;
+}
+.functionField {
+    border: thin solid grey;
+    font-size: 20px;
+    margin: 10px;
+    padding: 30px;
+    color: black;
+    background-color: peachpuff;
+}
+.functionField > h2 {
+    font-size: 30px;
+    color: black;
+    background-color: peachpuff;
+}
+</style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1> WEB 110 Final- Video </h1>
+            <nav>
+                <div> <a href="audio.html"> Audio </a></div>
+                <div> <a href="video.html"> Video </a></div>
+                <div> <a href="DHTML.html"> DHTML </a></div>
+            </nav>
+        </header>
+        <br>
+        <div class="explainField">
+            <h2>
+                Video in HTML
+            </h2>
+            <br>
+            <p>
+                HTML webpages include video using the video tag, which creates a web player in which your desired video is played, and includes a volume bar, the option to fullscreen, and scrubbing.
+            </p>
+            <p>
+                You may also embed a youtube video into your website, which creates an entity of the youtube player within the browser.
+            </p>
+        </div>
+        <div class="functionField">
+            <h2>Video</h2>
+            <p>Panda</p>
+            <video width="640" height="360" controls>
+                <source src="Scared Panda.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <br>
+            <br>
+        </div>
+        <div class="functionField">
+            <h2>Youtube Embed: Panda</h2>
+                <p>Spring Grooming</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8d6voO-na6w?si=TAi1e25QqO3xHl_Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
