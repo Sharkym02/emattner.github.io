@@ -110,23 +110,12 @@ nav>div>a {
             <br>
             <div>
                 <h2>Submitted Values</h2>
-        <table>
-            <tr>
-                <th>Input Value</th>
-                <th>Input Number</th>
-            </tr>
-<?php
-
-foreach ($_POST as $n => $v) {
-
-    echo "<tr>
-                <th>$n</th>
-                <th>$v</th>
-            </tr>";
-}
-
-?>
-            </table>
+                <?php
+                    $one = $_POST["1"];
+                    $two = $_POST["2"];
+                    $three = $_POST["3"];
+                    echo "Your 3 inputs were $one, $two, and $three";
+                ?> 
             </div>
         </div>
         <div class="functionField">
